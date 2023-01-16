@@ -1,10 +1,13 @@
-import Button from "../../components/Button/Button";
 import "./home.scss";
 import heroImage from '../../assets/hero image.png'
 import transactionImage from '../../assets/transaction.png'
 import paulImage from '../../assets/paul.png'
 
+
 const Home = () => {
+
+
+
   return (
     <section className="home">
       <div className="home__left">
@@ -21,8 +24,7 @@ const Home = () => {
       <div className="home__right">
         <img src={heroImage} alt='Hero__Image' className="hero__image" />
         <img src={transactionImage} alt='Hero__Image' className="transaction__image" />
-        <img src={paulImage} alt='Hero__Image' className="wallet__image" />
-        
+        <img src={paulImage} alt='Hero__Image' className="paul__image" />  
       </div>
     </section>
   );

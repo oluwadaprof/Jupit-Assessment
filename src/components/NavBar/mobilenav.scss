@@ -1,0 +1,28 @@
+.mobile__nav {
+  position: absolute;
+  left: -10%;
+  z-index: 1;
+  width: 117.4rem;
+  height: 95rem;
+  background: var(--primary-color);
+  color: white;
+  .nav__links {
+    color: white;
+    position: relative;
+    top: 17%;
+    left: 52%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    .nav__link {
+      color: white;
+      font-size: 1.4rem;
+    }
+  }
+  .close__icon{
+    color: white;
+    font-size: 3rem;
+    margin-right: 5rem;
+  }
+}
