@@ -1,0 +1,51 @@
+.home {
+  height: 70vh;
+  width: 97.3%;
+  max-width: 97.3%;
+  //   background: var(--primary-color);
+  display: flex;
+  padding-left: 3rem;
+  text-align: left;
+  .home__left {
+    width: 100%;
+    h1 {
+      font-size: 52px;
+    }
+    p {
+      font-size: 20px;
+      color: rgba(4, 4, 21, 0.8);
+      font-weight: 500;
+    }
+    button {
+      width: 14rem;
+      height: 3.8rem;
+      border: none;
+      border-radius: 10px;
+      background: var(--primary-btn-color);
+      color: var(--primary-color);
+      font-weight: 600;
+      font-size: 16px;
+      margin-top: 2rem;
+    }
+  }
+  .home__right {
+    .hero__image {
+      position: relative;
+      top: -14rem;
+      left: 5rem;
+      transform: scale(0.89);
+    }
+    .transaction__image {
+      position: relative;
+      top: -35rem;
+      left: 22rem;
+      transform: scale(0.85);
+    }
+    .wallet__image {
+      position: relative;
+      top: -26rem;
+      left: -13rem;
+      transform: scale(0.85);
+    }
+  }
+}
