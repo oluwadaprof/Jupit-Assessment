@@ -2,14 +2,15 @@
   height: 70vh;
   width: 97.3%;
   max-width: 97.3%;
-  //   background: var(--primary-color);
   display: flex;
   padding-left: 3rem;
+  margin-top: 3rem;
   text-align: left;
   .home__left {
-    width: 100%;
+    width: 90rem;
     h1 {
-      font-size: 52px;
+      font-size: 50px;
+      word-wrap: break-word;
     }
     p {
       font-size: 20px;
@@ -32,20 +33,66 @@
     .hero__image {
       position: relative;
       top: -14rem;
-      left: 5rem;
+      left: 8rem;
       transform: scale(0.89);
+      z-index: -1;
     }
     .transaction__image {
       position: relative;
       top: -35rem;
-      left: 22rem;
+      left: 25rem;
       transform: scale(0.85);
     }
     .paul__image {
       position: relative;
-      top: -26rem;
-      left: -13rem;
+      top: -25rem;
+      left: -9rem;
       transform: scale(0.85);
     }
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    // flex-wrap: wrap;
+    // justify-content: center;
+    .home__left {
+      // width: 100rem;
+      transform: scale(0.9);
+      margin-left: -2rem;
+      h1 {
+        font-size: 42px;
+        width: 28rem;
+      }
+    }
+    .home__right {
+      text-align: center;
+      margin-left: -19rem;
+      .hero__image {
+        left: 9rem;
+        top: -17rem;
+        transform: scale(0.6);
+        z-index: -1;
+      }
+      .transaction__image {
+        position: relative;
+        top: -42rem;
+        left: 14.5rem;
+        transform: scale(0.7);
+      }
+      .paul__image {
+        position: relative;
+        top: -42.8rem;
+        left: 4rem;
+        transform: scale(0.7);
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+.home{
+  flex-wrap: wrap;
+}
 }

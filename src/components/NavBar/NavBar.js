@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <nav>
-      {toggleMenu ? <MobileNav handleClose={handleClose} />: null}
+      {toggleMenu && <MobileNav handleClose={handleClose} /> }
       <img src={Logo} alt="JUPIT LOGO" />
       <div className="nav__links">
         {NavData.map((nav) => (
@@ -30,8 +30,8 @@ const NavBar = () => {
         ))}
       </div>
       <div className="btn__group">
-        <Button className="sign__in" text="Sign In" />
-        <Button className="register" text="Register" />
+        <button type="" className="sign__in">Sign In</button>
+        <button type="" className="register">Register</button>
       </div>
 
       <FiMenu onClick={handleToggle} className="menu__icon" />

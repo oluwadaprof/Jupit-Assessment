@@ -12,8 +12,8 @@ const Home = () => {
     <section className="home">
       <div className="home__left">
         <h1>
-          Make easy digital assets <br />
-          transactions anywhere, <br /> anytime with Jupit.
+          Make easy digital assets 
+          transactions anywhere,  anytime with Jupit.
         </h1>
         <p>
           A place for everyone who wants to simply buy and <br />

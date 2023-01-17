@@ -3,7 +3,7 @@ import { NavData } from "./NavData";
 import { NavLink } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 
-const MobileNav = (handleClose) => {
+const MobileNav = ({handleClose}) => {
   return (
     <nav className="mobile__nav">
       <div className="nav__links">
